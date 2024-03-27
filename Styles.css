@@ -38,8 +38,8 @@ section {
 
 .sessao-horizontal {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 40px;
+    margin: 20px;
 }
 
 /* Estilos para os títulos das seções */
