@@ -1,61 +1,66 @@
-/* Reset de Estilos */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilos Gerais */
+/* Estilos para o body */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background-color: #f4f4f4; /* Cor de fundo */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+/* Estilos para a navegação */
+nav {
+    background-color: #333; /* Cor de fundo da navegação */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento padrão */
+    margin: 0; /* Remove margens padrão */
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    display: inline; /* Exibe os itens em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
 }
 
 nav ul li a {
-    color: #fff;
-    text-decoration: none;
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
 }
 
-main {
-    padding: 20px;
-}
-
+/* Estilos para as seções */
 section {
-    margin-bottom: 30px;
+    background-color: #fff; /* Cor de fundo das seções */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaçamento inferior */
 }
 
+/* Estilos para os títulos das seções */
 h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
+    border-bottom: 2px solid #333; /* Linha inferior */
+    padding-bottom: 5px; /* Espaçamento inferior */
 }
 
-ul {
-    list-style: none;
+/* Estilos para as imagens */
+img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura da seção */
+    height: auto; /* Mantém a proporção da imagem */
 }
 
+/* Estilos para os links */
+a {
+    color: #007bff; /* Cor dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+/* Estilos para o rodapé */
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento de texto */
 }
